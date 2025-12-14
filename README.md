@@ -36,16 +36,26 @@ This project is ideal for developers who want a lightweight example of building 
 
 ## 📁 Project Structure
 
-FunChat/
-├── src/
-│ └── main/
-│ ├── java/
-│ │ └── com/visitormaker/funchat/ # Backend controllers & services
-│ ├── resources/
-│ │ ├── templates/ # Thymeleaf HTML views
-│ │ └── static/ # CSS, JS, assets
-├── .gitignore
-├── mvnw
-├── mvnw.cmd
-├── pom.xml # Maven build file
-└── README.md
+The project follows a standard **Spring Boot** layout with:
+- Controllers and services in `src/main/java`
+- Thymeleaf templates in `src/main/resources/templates`
+- Static assets (CSS, JS) in `src/main/resources/static`
+
+
+---
+
+## 📦 Installation & Setup
+
+### Prerequisites
+
+Make sure you have the following installed:
+- **Java JDK 17+**
+- **Maven** (optional if using the provided wrapper)
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/deividas-strole/FunChat.git
+cd FunChat
+
+  
